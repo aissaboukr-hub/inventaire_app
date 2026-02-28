@@ -1,0 +1,37 @@
+name: inventaire_app
+description: Application professionnelle de gestion d'inventaire avec scan code-barres.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Base de données locale
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  path_provider: ^2.0.15
+
+  # Import/Export Excel
+  excel: ^2.1.0
+  file_picker: ^6.1.1
+
+  # Scanner code-barres
+  mobile_scanner: ^3.3.0
+
+  # Permissions
+  permission_handler: ^11.0.1
+
+  # Partage fichiers
+  share_plus: ^7.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
